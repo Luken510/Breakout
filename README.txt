@@ -1,4 +1,4 @@
-Simply enter Debug folder, start the exe to play the game
+Simply enter the Release folder, start the exe to play the game
 
 Controls are Left and Right Arrows to move, left and right respectively
 
