@@ -23,7 +23,7 @@ Ball::Ball(float X, float Y)
 		// set the Ball radius
 		ballRadius = 7.f; 
 		// set the Ball velocity
-		ballVelocity = 0.1f;
+		ballVelocity = 0.08f;
 		// setting the Balls position
 		cBall.setPosition(X,Y);
 		// Setting the balls radius to be drawn

@@ -18,7 +18,7 @@ Paddle::Paddle(float X, float Y)
 		fPaddleWidth = 120;
 	
 		
-		fPaddleVelocity = 0.2f;
+		fPaddleVelocity = 0.12f;
 		rPaddle.setPosition(X,Y);
 		rPaddle.setSize(sf::Vector2f(fPaddleWidth, fPaddleHeight));
 		rPaddle.setFillColor(sf::Color::Red);

@@ -35,7 +35,7 @@
 
 using namespace std;
 
-int Score;
+int Score = 0;
 int iLives = 3;
 
 /**
@@ -133,7 +133,7 @@ int main()
 	sf::Texture backgroundTexture;//!< create the backgroundtexture
 	sf::Sprite backgroundSprite;//!< create the background sprite
 
-	backgroundTexture.loadFromFile("..\\assets\\bg.png");//!<load the background texture 281x71 image
+	backgroundTexture.loadFromFile("../assets/bg.png");//!<load the background texture 281x71 image
 	backgroundSprite.setTexture(backgroundTexture);//!<set the sprite to the texture
 	backgroundSprite.setOrigin(141.f,35.5f);//!<set the sprites origin 
 	backgroundSprite.setPosition(400,300);//!<set the position of the sprite
@@ -219,7 +219,7 @@ int main()
 				window.close();
 		}
 		//draw the background
-		window.draw(backgroundSprite);
+		//window.draw(backgroundSprite);
 		// update and draw the paddle
 		Player1.update();
 		window.draw(Player1.rPaddle);
